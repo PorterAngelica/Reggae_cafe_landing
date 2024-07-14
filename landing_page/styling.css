@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HR:wght@100..400&display=swap');
+*{
+    /* border: 1px red dotted; */
+}
+
+body{
+    background-color: black;
+}
+
+header{
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+span{
+    color: white;
+}
+
+.socials-logo{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    gap: 30px;
+}
+
+.logo{
+    margin-left: -100px;
+}
+
+.text-span{
+    display: flex;
+}
+
+hr{
+    border: 2px goldenrod solid;
+    margin-top: -15px;
+}
+.navbar{
+display: flex;
+align-items: center;
+gap: 30px;
+justify-content: space-around;
+}
+
+.navbar h3{
+    color: white;
+    font-style: italic;
+    font-weight: lighter;
+    margin-top: 50px;
+    
+}
+
+.main-container{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-around; */
+    margin-left: 7%;
+}
+.main-container-text h1{
+    font-family: "playwrite HR", cursive;
+    color: white;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.main-container-text p{
+    color: white;
+    font-size: larger;
+}
+
+.main-container-video{
+    /* margin-right: -20px */
+    width: 70%;
+}
