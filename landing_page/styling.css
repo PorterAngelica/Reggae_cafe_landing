@@ -73,3 +73,7 @@ justify-content: space-around;
     /* margin-right: -20px */
     width: 70%;
 }
+
+.navbar a {
+    text-decoration: none;
+}
